@@ -76,7 +76,7 @@ In order to deal with the class imbalance identified above, I resampled data (up
 
 ## Building models
 I then built several models: Logistic regression (LR), KNN, Decision tree, Random forest, Gradient boosting, and XGboost.
-I trained these models using using training data (randomly selected from the whole dataset) at both a 80% split.
+I trained these models using training data (randomly selected from the whole dataset) at an 80% split.
 I compared these models along accuracy and F1 scores and elected to focus on LR models based on these results.
 
 ## Improving the LR model
